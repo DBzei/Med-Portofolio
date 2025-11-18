@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Medizinstudium</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+        nav {
+            width: 220px;
+            background-color: #111;
+            height: 100vh;
+            color: white;
+            position: fixed;
+            padding: 20px;
+        }
+        nav a {
+            display: block;
+            color: white;
+            margin: 15px 0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            margin-left: 240px;
+            padding: 30px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h2>Mein Portfolio</h2>
+    <a href="index.html">Dashboard</a>
+    <a href="faecher.html">Fächer</a>
+    <a href="upload.html">Upload</a>
+    <a href="termine.html">Termine</a>
+</nav>
+
+<main>
+    <h1>Dashboard</h1>
+
+    <div class="card">
+        <h2>Nächste Termine</h2>
+        <ul>
+            <li>Physiologie – Niere III am 20.11.</li>
+            <li>Biochemie – Praktikum am 22.11.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Offene Aufgaben (Check-in)</h2>
+        <ul>
+            <li>Niere III Folien hochladen</li>
+            <li>Endokrinologie I Folien sortieren</li>
+        </ul>
+    </div>
+</main>
+
+</body>
+</html>
